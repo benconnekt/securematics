@@ -1,0 +1,98 @@
+h2, h3{
+    color: #c32a38
+}
+
+.container{
+    max-width: 960px;
+}
+.masterhead{
+    background:  #fff
+}
+.navbar-brand{
+    background: url("../img/logo.jpg") no-repeat 50% 0;
+    width: 255px;
+    height: 123px;
+     text-indent: -9999px;
+     display: block
+   
+}
+.navbar-right{
+    margin-top: 50px;
+    color: #c32a38;
+}
+.form-horizontal .control-label{
+    text-align: left !important;
+}
+.navbar-inverse{
+    background: #e2e2e2;
+}
+.navbar{
+    border-radius: 0;
+    border-color: #e2e2e2
+}
+.jumbotron{
+    padding-top: 32px
+}
+.slider{
+    background: url("../img/slider_bg.jpg") repeat-x;
+    height: 529px
+}
+#slideshow{
+     background: url("../img/inner_slider.png") no-repeat; 
+     width: 100%;
+     height: 431px
+}
+#slideshow img{
+    margin: 22px 24px;
+    width: 95%
+}
+
+/* Cycle Style 2*/
+#controls { padding: 0; margin: 10px auto; width: 100px}
+#controls span { 
+    margin: 0 5px; 
+    padding: 3px 5px; 
+    width: 26px; height: 26px; 
+    background: url('../img/slider_control.png') no-repeat; 
+    text-decoration: none; text-indent: -9999px; 
+    display: inline-block;
+    zoom: 1; *display: inline; /* IE < 8: fake inline-block */
+}
+#controls span.cycle-pager-active { background: url('../img/slider_control_active.png') no-repeat
+}
+#controls a:focus { outline: none; }
+
+/* Cycle Style  2*/
+#cycle-partner{
+    width: 97%; margin: 0 auto
+}
+#cycle-partner .cycle-slide{
+    width: 120px !important
+}
+a.cycle-prev, a.cycle-next{
+    text-indent: -9999px; display: block; position: absolute; top: 40px
+}
+#our_partners .cycle-prev{
+   background: url('../img/cycle-prev.png') no-repeat; width: 21px; height: 21px;
+   left: 0;
+}
+#our_partners .cycle-next{
+     background: url('../img/cycle-next.png') no-repeat; width: 21px; height: 21px; right: 0
+}
+.img-thumbnail{
+    float: left;
+    margin: 0 10px 10px 0
+}
+
+/* Footer */
+footer{
+    background: #2d2c2c url('../img/footer.jpg') repeat-x; height: 48px;
+    color: #fff; padding-top: 15px
+}
+
+/* Custom */
+.call_back{
+    background: #dfdfdf;
+    padding: 10px;
+    border-radius: 5px
+}

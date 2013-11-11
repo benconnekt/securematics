@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle2.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle2.carousel.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+$(function() {
+
+      $("#slideshow").cycle({
+          timeout: 2000,
+          speed:   100,
+          pager:  '#controls'
+      });
+      
+});
+</script> 
+  </head>
+
+  <body>
+<div class="masterhead">
+    <div class="container">
+        <div class="row">
+                <div class="col-md-6">
+                   <a class="navbar-brand" href="#">Securematics</a> 
+                </div>
+                <div class="col-md-6">
+                    <div class="navbar-right">
+                        Follow us: 
+                         <a href=""><img src="img/facebook-icon.jpg" /> </a>
+                         <a href=""><img src="img/twitter-icon.jpg" /> </a>
+                         <a href=""> <img src="img/youtube-icon.jpg" /> </a>
+                         <a href=""> <img src="img/gmail-icon.jpg" /> </a> <br>
+                         <span>Contact support on: 0208 318 5860</span>
+                     </div>
+                    
+                </div>
+        </div>
+    </div>
+</div>
+<div class="navbar navbar-inverse">
+      <div class="container">
+         
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+ </div>
+    <div class="jumbotron slider">
+      <div class="container">
+        <div id="slideshow" class="pics">
+            <img src="img/slider_01.jpg" width="912" height="389" />
+            <img src="img/slider_01.jpg" width="912" height="389" />
+        </div>
+          <ul id="controls"></ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-7 welcome">
+          <h2>Welcome to Securematics</h2>
+          <img src="img/welcome_img.jpg" class="img-thumbnail"/>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+           <h2>News and Events</h2>
+           <div class="row">
+               <div class="col-md-12">
+                   <h3>Commercial Security</h3>
+                   <img src="img/event_1.png" class="img-thumbnail"/>
+                   <p>
+                       To nest your content with the default grid, add a new .row and set of .col-md-* columns within an existing .col-md-* column. Nested rows should include a set of columns that add up to 12.
+                   </p>
+                   <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+               </div>
+           </div>
+            <div class="row">
+               <div class="col-md-12">
+                   <h3>Home Security Systems</h3>
+                   <img src="img/event_1.png" class="img-thumbnail"/>
+                   <p>
+                       To nest your content with the default grid, add a new .row and set of .col-md-* columns within an existing .col-md-* column. Nested rows should include a set of columns that add up to 12.
+                   </p>
+                   <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+               </div>
+           </div>
+        </div>
+        <div class="col-md-5">
+          <h2>We'll call you back</h2>
+          <form class="form-horizontal call_back">
+              <div class="form-group">
+                  <label for="name" class="col-sm-3 control-label">Name</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                  </div>
+               </div>
+              <div class="form-group">
+                  <label for="phone" class="col-sm-3 control-label">Phone</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="phone" placeholder="Phone">
+                  </div>
+               </div>
+                <div class="form-group">
+                  <label for="company" class="col-sm-3 control-label">Company</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="company" placeholder="company">
+                  </div>
+               </div>
+                <div class="form-group">
+                  <label for="interest" class="col-sm-3 control-label">Interest</label>
+                  <div class="col-sm-9">
+                    <select class="form-control" id="interest">
+                        <option>-- Select -- </option>
+                        <option>IP Networking Solutions</option>
+                        <option>IP CCTV</option>
+                        <option>Access Control</option>
+                        <option>Intruder / Fire Alarms</option>
+                        <option>Door / Video Entry System</option>
+                        <option>Integrated Security Systems</option>
+                        <option>Consultancy / Training</option>
+                      </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="enquiry_type" class="col-sm-3 control-label">Enquiry Type</label>
+                  <div class="col-sm-9">
+                    <select class="form-control" id="enquiry_type">
+                        <option>-- Select -- </option>
+                        <option>Quotation required </option>
+                        <option>General enquiry</option>
+                      </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="details" class="col-sm-3 control-label">Details</label>
+                  <div class="col-sm-9">
+                      <textarea class="form-control" id="details">
+
+                      </textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <span class="col-sm-3"></span>
+                  <div class="col-sm-9">
+                    <button type="submit" class="btn btn-default">CALL ME BACK</button>
+                  </div>
+                </div>
+              </form>
+        </div>
+      </div>
+      <div class='row'>
+          <div class="col-md-12">
+           <div id="our_partners">
+           <div id="cycle-partner" class="cycle-slideshow"
+        data-cycle-slides="> div"
+        data-cycle-timeout="1000"
+        data-cycle-pause-on-hover="true"
+        data-cycle-speed="500"
+        data-cycle-prev="#our_partners .cycle-prev"
+        data-cycle-next="#our_partners .cycle-next"
+        data-cycle-fx="carousel"
+        data-cycle-carousel-visible="6"
+        data-cycle-carousel-fluid=true
+        data-allow-wrap="true"
+        >
+        <div><img src="img/partners/arocont_vision.jpg" width=100 ></div>
+        <div><img src="img/partners/axis.jpg" width=100 > </div>
+        <div><img src="img/partners/bpt.jpg" width=100 ></div>
+        <div><img src="img/partners/cooper_safety.jpg" width=100 ></div>
+        <div><img src="img/partners/endura.jpg" width=100 ></div>
+        <div><img src="img/partners/nuuo.jpg" width=100 ></div>
+        <div><img src="img/partners/paxton.jpg" width=100></div>
+        <div><img src="img/partners/pelco.jpg" width=100></div>
+        <div><img src="img/partners/qnap.jpg" width=100></div>
+        <div><img src="img/partners/texecom.jpg" width=100></div>
+    </div>
+        <a href="#" class="cycle-prev">prev</a>  <a href="#" class="cycle-next">next</a>
+</div>
+          </div>
+      </div>
+
+      <hr>
+    </div> <!-- /container -->
+    
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6"><p>Copyright © 2013 All Rights Reserved. Web Design By Connektor</p></div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+      </footer>
+  </body>
+</html>

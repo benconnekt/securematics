@@ -1,0 +1,109 @@
+/* 
+    Document   : style
+    Created on : 04-Nov-2013, 15:19:01
+    Author     : Connektor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*Sign in form */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.forms {
+background-color: #E4F8FA;
+font: normal 12px arial,verdana;
+padding: 3px;
+
+border: 1px solid #CAE4FF;
+}
+.myaccount {
+background-color: #E4F8FA;
+font: normal 12px arial,verdana;
+padding: 2px 5px;
+border: 1px solid #CAE4FF;
+
+}
+
+a {
+color: #03c;
+}
+
+.main {
+font: normal 12px arial,verdana;
+padding: 2px;
+margin: 2px;
+
+ }
+ 
+ .titlehdr {
+ font: normal 22px arial, verdana;
+ color: #c00;
+ border-bottom: 1px solid #c00;
+ 
+ 
+ }
+ 
+.msg {
+padding: 5px;
+width: 600px;
+margin: 2px;
+color: #c00;
+border: 1px solid #c00;
+background-color: #FEF1ED;
+font: bold 13px  verdana;
+} 
+
+ 
+ .example {
+font: normal 10px arial;
+color: red;
+}
+.approved {
+font: normal 10px arial;
+color: green;
+}
+
+.loginform {
+font: 16px normal arial;
+background-color: #E4F8FA;
+font: normal 12px arial,verdana;
+padding: 3px;
+border: 1px solid #CAE4FF;
+}
+
+.loginform #txtbox {
+font: bold 16px arial;
+color: #f00;
+}
